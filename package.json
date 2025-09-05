@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-monorepo-pnpm-workspaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "pnpm --filter @demo/client dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}
